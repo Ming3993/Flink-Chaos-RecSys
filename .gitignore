@@ -1,0 +1,53 @@
+# Environment & Secrets
+.env
+.env.*
+!.env.example
+
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Large Datasets, Cold Storage & Binary Artifacts (50-60GB datasets)
+data/
+*.csv
+*.csv.gz
+*.gz
+*.zip
+*.tar
+*.parquet
+*.npz
+*.db
+*.sqlite
+*.sqlite3
+
+# Flink Runtime, Checkpoints & State Backends
+checkpoints/
+savepoints/
+rocksdb/
+*.jar
+!infra/flink/*.jar
+
+# Chaos Arena Isolation (Tránh lộ đáp án Red Team qua Git history)
+red-team-agent/memory/blackbox_ledger.jsonl
+*.ledger.jsonl
+
+# Logs & Temporary Files
+logs/
+*.log
+tmp/
+*.tmp
+
+# OS & IDE
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo

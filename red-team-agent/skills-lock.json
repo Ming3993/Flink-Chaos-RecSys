@@ -1,0 +1,29 @@
+{
+  "version": 2,
+  "skills": {
+    "chaos-engineer": {
+      "source": "Jeffallan/claude-skills",
+      "commit": "67c1961b180dc92cf08983344627109e983e8f51",
+      "sourceType": "github",
+      "skillPath": "skills/chaos-engineer/SKILL.md",
+      "computedHash": "4cf0109598058faddde3619d75db460e376eb133aaf2a6eb1a4837378eed27fa",
+      "installMode": "copy"
+    },
+    "developing-applications-on-managed-service-for-apache-flink": {
+      "source": "aws/agent-toolkit-for-aws",
+      "commit": "2b762874f54913b9b43d1aa59a464b67486fbd85",
+      "sourceType": "github",
+      "skillPath": "skills/specialized-skills/analytics-skills/developing-applications-on-managed-service-for-apache-flink/SKILL.md",
+      "computedHash": "1df6c8a7a1eecd0494c4e55812bbaedfbff958452d4cc7eef69ccd4246225a5b",
+      "installMode": "copy"
+    },
+    "sre-engineer": {
+      "source": "Jeffallan/claude-skills",
+      "commit": "67c1961b180dc92cf08983344627109e983e8f51",
+      "sourceType": "github",
+      "skillPath": "skills/sre-engineer/SKILL.md",
+      "computedHash": "f57b1266cdf5e199f78bdb7f50aa7a0495ada71bdeeac2e322630fefcf1ba09f",
+      "installMode": "copy"
+    }
+  }
+}
